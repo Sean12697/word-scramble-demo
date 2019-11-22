@@ -1,0 +1,27 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+body, textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    text-align: center;
+    width: 70vw;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+main > * {
+    display: block;
+    margin: 30px auto;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="button"] {
+    padding: 10px 15px;
+}
